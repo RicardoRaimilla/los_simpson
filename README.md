@@ -5,7 +5,7 @@
 ### 2. Mejora del modelo CNN
 - Aprovechando tiempo extra disponible, se decidió mejorar el modelo y construir una arquitectura más robusta y profunda.
 - El nuevo modelo tiene mayor capacidad de representación y mejora significativamente el `accuracy`, haciéndolo **más presentable y competitivo**.
-- Se mantuvo el uso de técnicas de regularización (`Dropout`, `BatchNormalization`) y se entrenó con mayor resolución (128x128).
+- Se mantuvo el uso de técnicas de regularización (`Dropout`, `BatchNormalization`).
 ### 3. Predicción por imagen individual
 - Agrega una nueva funcionalidad para mostrar **predicciones con imágenes individuales del conjunto de prueba**, mostrando tanto la clase real como la predicha.
 - Las imágenes se visualizan junto a la predicción del modelo, marcadas en verde si son correctas y rojo si son incorrectas, lo cual **facilita el análisis visual del rendimiento**.
